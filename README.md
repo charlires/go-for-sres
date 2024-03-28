@@ -3,10 +3,7 @@
 If you are an SRE Go must be one of the languages you should know for sure.
 There are multiple things you can do with it, the industry is already there.
 
-<!-- I am going to tell you the three most important things SREs are doing with Go right now. -->
-
 In this repository you will find few reasons why Go is one of the best languages you must master as an SRE
-
 
 ## CLI tools
 
@@ -20,4 +17,10 @@ Using Cobra you can create complex command line tools [cobra-cli](./cobra-cli/ma
 
 ## Templating
 
-Go has a powerfull templating engine 
+Go has a powerfull templating engine [templates](./templates/main.go)
+
+This template engine has been used by other tools like [helm](./helm/mychart/templates/configmap.yaml)
+
+## Infrastructure as Code
+
+you can test you Terraform plans using Go with [Terratest](./terratest/main.tf)

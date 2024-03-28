@@ -33,6 +33,10 @@ HELM takes full advantage of the Go template engine
 <https://www.practical-go-lessons.com/chap-32-templates>  
 <https://helm.sh/docs/chart_template_guide/named_templates>
 
+```sh
+helm template --dry-run ./mychart/
+```
+
 ## Web server
 Go is one of the languages where creating an standalone [web-server](./web-server/main.go) is simple and secure.
 
@@ -44,4 +48,6 @@ With Go you can create you own infrastructure using Pulumi
 <https://github.com/hashicorp/terraform-exec>   
 <https://developer.hashicorp.com/terraform/cdktf/api-reference/go>  
 
+### unittest infrastructure as code
 You can test you Terraform plans using Go with [Terratest](./terratest/main.tf)
+

@@ -1,0 +1,4 @@
+go.sum
+terraform.tfstate
+terratest/module/terraform.tfstate.d/**
+terratest/module/.terraform/environment

@@ -5,6 +5,14 @@ terraform {
   required_version = ">= 0.12.26"
 }
 
-output "hello_world" {
-  value = "Hello, World!"
+resource "terraform_data" "demo" {
+  input = "demo"
+}
+
+output "env" {
+  value = terraform.workspace
+}
+
+output "name" {
+  value = "${var.var1}_test"
 }

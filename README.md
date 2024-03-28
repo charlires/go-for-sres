@@ -7,13 +7,18 @@ In this repository you will find few reasons why Go is one of the best languages
 
 ## CLI tools
 
+### Standard Librery
+
 In Go is simple to create you own CLI tool. 
 
 Using the standard library you can create a [simple-cli](./simple-cli/main.go) 
 
 If you want to create a more complex CLI too like [helm](https://github.com/helm/helm/blob/main/cmd/helm/root.go) you can use (Cobra)[https://github.com/spf13/cobra]
 
+### Cobra
 Using Cobra you can create complex command line tools [cobra-cli](./cobra-cli/main.go)
+
+Cobra is used in helm, hugo, gh
 
 Why not using bash, it's not intuitive, personally I always struggle reading bash files, there is no intellisense, there is no easy way to test bash scripts.
 
@@ -23,6 +28,12 @@ With Cobra you get this features out of the box
 - Do you mean this?
 - Flags	
 - Multi platform
+
+```sh 
+cd cobra-cli
+go build .
+./cobra-cli echo -t=4 carlos
+```
 
 ## File Templating
 

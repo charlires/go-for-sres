@@ -33,7 +33,8 @@ With Cobra you get these features out of the box:
 - Command flags	
 - Multi platform binaries
 
-Why not use bash scripts, it's not intuitive, personally I always struggle reading bash files, there is no standard way to code it, there is no intellisense, there is no easy way to test them.
+Why not use bash scripts, it's not intuitive, personally I always struggle reading bash files, there is no standard way to code it, there is no intellisense, there is no easy way to test them.   
+https://blog.kowalczyk.info/article/4b1f9201181340099b698246857ea98d/using-go-instead-of-bash-for-scripts.html
 
 [EXAMPLE](./cobra-cli/main.go)
 ```sh 

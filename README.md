@@ -62,3 +62,10 @@ With Go you can create you own infrastructure using Pulumi
 ### unittest infrastructure as code
 You can test you Terraform plans using Go with [Terratest](./terratest/main.tf)
 
+### Honorable mentions
+https://docs.dagger.io/manuals/developer/go 
+
+
+### References
+https://roadmap.sh/golang   
+https://github.com/avelino/awesome-go   
